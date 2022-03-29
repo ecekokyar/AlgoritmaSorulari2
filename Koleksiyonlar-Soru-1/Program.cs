@@ -20,7 +20,7 @@ namespace Koleksiyonlar_Soru_1
             double nonPrimeNumberSum = 0;
             
             Console.WriteLine("20 Adet pozitif sayı giriniz: ");
-            for (int i = 0; i <5; i++)
+            for (int i = 0; i <20; i++)
             {
                 Console.Write($"{i+1}.sayı: ");
                 int num=Convert.ToInt32(Console.ReadLine());

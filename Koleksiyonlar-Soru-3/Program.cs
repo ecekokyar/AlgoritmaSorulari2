@@ -7,6 +7,7 @@ namespace AlgoritmaSorulari2
     {
         static void Main(string[] args)
         {
+            //Soru - 3: Klavyeden girilen cümle içerisindeki sesli harfleri bir dizi içerisinde saklayan ve dizinin elemanlarını sıralayan programı yazınız.
            Console.WriteLine("Bir cümle giriniz: ");
             string[] sentence=Console.ReadLine().Split(' ');
             string[] character = {"a","e","ı","i","o","ö","ü","u"};
